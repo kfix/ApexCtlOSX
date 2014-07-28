@@ -1,0 +1,160 @@
+Full Speed device @ 3 (0x26410000): .............................................   Composite device: "SteelSeries Apex Gaming Keyboard"
+    Port Information:   0x0019
+           Captive
+           External Device
+           Connected
+           Enabled
+    Number Of Endpoints (includes EP0):   
+        Total Endpoints for Configuration 1 (current):   4
+    Device Descriptor   
+        Descriptor Version Number:   0x0110
+        Device Class:   0   (Composite)
+        Device Subclass:   0
+        Device Protocol:   0
+        Device MaxPacketSize:   64
+        Device VendorID/ProductID:   0x1038/0x1202   (unknown vendor)
+        Device Version Number:   0x0033
+        Number of Configurations:   1
+        Manufacturer String:   1 "SteelSeries"
+        Product String:   2 "SteelSeries Apex Gaming Keyboard"
+        Serial Number String:   0 (none)
+    Configuration Descriptor (current config)   
+        Length (and contents):   84
+            Raw Descriptor (hex)    0000: 09 02 54 00 03 01 00 E0  01 09 04 00 00 01 03 00  
+            Raw Descriptor (hex)    0010: 00 00 09 21 11 01 00 01  22 25 00 07 05 81 03 20  
+            Raw Descriptor (hex)    0020: 00 01 09 04 01 00 01 03  01 01 00 09 21 11 01 00  
+            Raw Descriptor (hex)    0030: 01 22 41 00 07 05 82 03  08 00 01 09 04 02 00 01  
+            Raw Descriptor (hex)    0040: 03 00 00 00 09 21 11 01  00 01 22 19 00 07 05 83  
+            Raw Descriptor (hex)    0050: 03 04 00 01 
+        Number of Interfaces:   3
+        Configuration Value:   1
+        Attributes:   0xE0 (self-powered, remote wakeup)
+        MaxPower:   2 ma
+        Interface #0 - HID   
+            Alternate Setting   0
+            Number of Endpoints   1
+            Interface Class:   3   (HID)
+            Interface Subclass;   0
+            Interface Protocol:   0
+            HID Descriptor   
+                Descriptor Version Number:   0x0111
+                Country Code:   0
+                Descriptor Count:   1
+                Descriptor 1   
+                    Type:   0x22  (Report Descriptor)
+                    Length (and contents):   37
+                        Raw Descriptor (hex)    0000: 06 C0 FF 09 01 A1 01 06  C1 FF 15 00 26 FF 00 75  
+                        Raw Descriptor (hex)    0010: 08 09 F0 95 20 81 02 09  F1 95 20 91 02 09 F2 96  
+                        Raw Descriptor (hex)    0020: 02 02 B1 02 C0 
+                    Parsed Report Descriptor:   
+                          Usage Page    (Vendor defined 192) 
+                          Usage 1 (0x1)    
+                              Collection (Application)    
+                                Usage Page    (Vendor defined 193) 
+                                Logical Minimum.........    (0)  
+                                Logical Maximum.........    (255)  
+                                Report Size.............    (8)  
+                                Usage 240 (0xf0)    
+                                Report Count............    (32)  
+                                Input...................   (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null Position, Bitfield) 
+                                Usage 241 (0xf1)    
+                                Report Count............    (32)  
+                                Output..................   (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null Position, Nonvolatile, Bitfield) 
+                                Usage 242 (0xf2)    
+                                Report Count............    (514)  
+                                Feature.................   (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null Position, Nonvolatile, Bitfield) 
+                              End Collection     
+            Endpoint 0x81 - Interrupt Input   
+                Address:   0x81  (IN)
+                Attributes:   0x03  (Interrupt no synchronization data endpoint)
+                Max Packet Size:   32
+                Polling Interval:   1 ms
+        Interface #1 - HID/Boot Interface   
+            Alternate Setting   0
+            Number of Endpoints   1
+            Interface Class:   3   (HID)
+            Interface Subclass;   1   (Boot Interface)
+            Interface Protocol:   1
+            HID Descriptor   
+                Descriptor Version Number:   0x0111
+                Country Code:   0
+                Descriptor Count:   1
+                Descriptor 1   
+                    Type:   0x22  (Report Descriptor)
+                    Length (and contents):   65
+                        Raw Descriptor (hex)    0000: 05 01 09 06 A1 01 05 07  19 E0 29 E7 15 00 25 01  
+                        Raw Descriptor (hex)    0010: 75 01 95 08 81 02 75 08  95 01 81 01 05 07 19 00  
+                        Raw Descriptor (hex)    0020: 2A FF 00 15 00 26 FF 00  75 08 95 06 81 00 05 08  
+                        Raw Descriptor (hex)    0030: 19 01 29 03 25 01 75 01  95 03 91 02 95 05 91 01  
+                        Raw Descriptor (hex)    0040: C0 
+                    Parsed Report Descriptor:   
+                          Usage Page    (Generic Desktop) 
+                          Usage (Keyboard)    
+                              Collection (Application)    
+                                Usage Page    (Keyboard/Keypad) 
+                                Usage Minimum...........    (224)  
+                                Usage Maximum...........    (231)  
+                                Logical Minimum.........    (0)  
+                                Logical Maximum.........    (1)  
+                                Report Size.............    (1)  
+                                Report Count............    (8)  
+                                Input...................   (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null Position, Bitfield) 
+                                Report Size.............    (8)  
+                                Report Count............    (1)  
+                                Input...................   (Constant, Array, Absolute) 
+                                Usage Page    (Keyboard/Keypad) 
+                                Usage Minimum...........    (0)  
+                                Usage Maximum...........    (255)  
+                                Logical Minimum.........    (0)  
+                                Logical Maximum.........    (255)  
+                                Report Size.............    (8)  
+                                Report Count............    (6)  
+                                Input...................   (Data, Array, Absolute) 
+                                Usage Page    (LED) 
+                                Usage Minimum...........    (1)  
+                                Usage Maximum...........    (3)  
+                                Logical Maximum.........    (1)  
+                                Report Size.............    (1)  
+                                Report Count............    (3)  
+                                Output..................   (Data, Variable, Absolute, No Wrap, Linear, Preferred State, No Null Position, Nonvolatile, Bitfield) 
+                                Report Count............    (5)  
+                                Output..................   (Constant, Array, Absolute, No Wrap, Linear, Preferred State, No Null Position, Nonvolatile, Bitfield) 
+                              End Collection     
+            Endpoint 0x82 - Interrupt Input   
+                Address:   0x82  (IN)
+                Attributes:   0x03  (Interrupt no synchronization data endpoint)
+                Max Packet Size:   8
+                Polling Interval:   1 ms
+        Interface #2 - HID   
+            Alternate Setting   0
+            Number of Endpoints   1
+            Interface Class:   3   (HID)
+            Interface Subclass;   0
+            Interface Protocol:   0
+            HID Descriptor   
+                Descriptor Version Number:   0x0111
+                Country Code:   0
+                Descriptor Count:   1
+                Descriptor 1   
+                    Type:   0x22  (Report Descriptor)
+                    Length (and contents):   25
+                        Raw Descriptor (hex)    0000: 05 0C 09 01 A1 01 05 0C  19 00 2A FF 0F 15 00 26  
+                        Raw Descriptor (hex)    0010: FF 0F 75 10 95 02 81 00  C0 
+                    Parsed Report Descriptor:   
+                          Usage Page    (Consumer) 
+                          Usage 1 (0x1)    
+                              Collection (Application)    
+                                Usage Page    (Consumer) 
+                                Usage Minimum...........    (0)  
+                                Usage Maximum...........    (4095)  
+                                Logical Minimum.........    (0)  
+                                Logical Maximum.........    (4095)  
+                                Report Size.............    (16)  
+                                Report Count............    (2)  
+                                Input...................   (Data, Array, Absolute) 
+                              End Collection     
+            Endpoint 0x83 - Interrupt Input   
+                Address:   0x83  (IN)
+                Attributes:   0x03  (Interrupt no synchronization data endpoint)
+                Max Packet Size:   4
+                Polling Interval:   1 ms

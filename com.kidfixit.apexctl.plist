@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC -//Apple Computer//DTD PLIST 1.0//EN http://www.apple.com/DTDs/PropertyList-1.0.dtd >
+<plist version="1.0">
+  <dict>
+    <key>KeepAlive</key>
+    <false/>
+    <key>Label</key>
+    <string>com.kidfixit.apexctl</string>
+    <key>ProgramArguments</key>
+    <array>
+      <string>apexctl</string>
+      <string>-rawkeys</string>
+      <string>-color_quiet</string>
+    </array>
+    <key>LaunchEvents</key>
+    <dict>
+      <key>com.apple.iokit.matching</key>
+      <dict>
+        <key>com.apple.device-attach</key>
+        <dict>
+          <key>idProduct</key>
+          <integer>1202</integer>
+          <key>idVendor</key>
+          <integer>1038</integer>
+          <key>IOProviderClass</key>
+          <string>IOUSBDevice</string>
+          <key>IOMatchStream</key>
+          <true/>
+        </dict>
+      </dict>
+    </dict>
+  </dict>
+</plist>
